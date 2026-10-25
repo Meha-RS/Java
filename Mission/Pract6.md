@@ -46,8 +46,8 @@
 CourseHub продаёт вебинар в зоне организатора пользователям разных зон, применяет early-bird до конкретного момента и возвращает деньги пропорционально оставшимся занятиям. Реализуйте модель на `Instant`, `ZonedDateTime`, `LocalDate`, `Duration/Period` и `BigDecimal`. Покройте DST, leap day, границу скидки, разные валюты и округление. Защитите выбор каждого типа.
 
 
-``` bash
 # Рекомендуемая структура исходников
+``` bash
 src/main/java/coursehub/practice6/
   strings/
     StringIdentityDemo.java
